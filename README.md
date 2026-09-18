@@ -74,4 +74,4 @@ _Add your team members and their roles here._
 ## Possible improvements
 
 - DB credentials are duplicated across four files — pulling them into one shared connection helper would mean changing them in one place instead of four.
-- Passwords are currently compared as plain text against `LOGIN`. Fine for a class demo, but worth a mention in your report as something you'd harden (e.g. hashing) for real-world use.
+- Passwords are currently compared as plain text against `LOGIN`.
