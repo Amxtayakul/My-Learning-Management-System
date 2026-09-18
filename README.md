@@ -67,10 +67,6 @@ Inferred from the queries in the code, the app expects a MySQL database with (at
 3. **Add the JDBC driver.** Put `mysql-connector-j-9.7.0.jar` in a `lib/` folder at the project root — `settings.json` already points VS Code's Java extension at `lib/**/*.jar`.
 4. **Run it.** Compile and run `LoginForm.main()`.
 
-## Team
-
-_Add your team members and their roles here._
-
 ## Possible improvements
 
 - DB credentials are duplicated across four files — pulling them into one shared connection helper would mean changing them in one place instead of four.
